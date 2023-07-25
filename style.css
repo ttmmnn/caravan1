@@ -229,3 +229,62 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+
+  .social {
+    width: 100%;
+    position: static;
+    margin-top: 20px;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+    padding-bottom: 0;
+  }
+
+  .blog {
+    width: 100%;
+  }
+
+  .blog-heading {
+    width: 100%;
+  }
+
+  .blog-image {
+    padding-top: 25px;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .popular-text {
+    padding-left: 5px;
+  }
+
+  .popular-text:last-child {
+    padding-left: 5px;
+  }
+
+  .instagram-box {
+    margin-right: 10px;
+  }
+
+  .instagram-box:nth-child(odd) {
+    margin: 0 10px 10px 0;
+  }
+
+  .sidebar-contents {
+    justify-content: center;
+  }
+
+  .sidebar-contents p {
+    padding-left: 5px;
+  }
+}
